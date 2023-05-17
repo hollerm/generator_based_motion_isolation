@@ -8,7 +8,7 @@ import copy
 import dcgan_sup as sup
 import matpy as mp
 import dcgan_main as dcgan
-
+import os
 
 # Container for output
 res_script = mp.output({})
@@ -62,6 +62,8 @@ from PIL import Image
 
 imgs = [Image.fromarray(frame) for frame in frames]
 # duration is the number of milliseconds between frames; this is 40 frames per second
+if not os.path.isdir('demo_results/videos'):
+        os.mkdir('demo_results/videos')
 imgs[0].save('demo_results/videos/' + expname + '.gif', save_all=True, append_images=imgs[1:], duration=70, loop=0)
 
 

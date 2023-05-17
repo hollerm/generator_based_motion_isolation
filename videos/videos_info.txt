@@ -15,3 +15,6 @@ In each of the animations, the following is depicted:
 Ground truth containing both motion types          | Generated images containing both motion types       | Difference image
 Ground truth containing only cardiac motion        | Generated images containing only cardiac motion     | Difference image
 Ground truth containing only respiratory motion    | Generated images containing only respiratory motion | Difference image
+
+
+The data that was the basis for these videos was obtained from the ISMRM reconstruction challenge 2014 (https://challenge.ismrm.org)

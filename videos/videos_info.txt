@@ -1,0 +1,17 @@
+
+
+## This folder provides videos of all results shown in the paper:
+
+phantom.gif # Phantom data
+case01.gif # Four-chamber-view experiment
+case09.gif # Short-axis-view experiment
+case02.gif # Second Four-chamber-view experiment
+case07.gif # Second Short-axis-view experiment
+
+These are the results with median performance after repeating the experiment with 20 different seeds. In addition to this, we also provide videos showing the best result that was obtained within the 20 different seeds. See the corresponding files "*_opt.gif" for these result.
+
+In each of the animations, the following is depicted:
+
+Ground truth containing both motion types          | Generated images containing both motion types       | Difference image
+Ground truth containing only cardiac motion        | Generated images containing only cardiac motion     | Difference image
+Ground truth containing only respiratory motion    | Generated images containing only respiratory motion | Difference image

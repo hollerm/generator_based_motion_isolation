@@ -1,0 +1,8 @@
+In order to compute the experiments with real data, this folder needs to contain the following files:
+
+case01D.pkl
+case02D.pkl
+case07D.pkl
+case09D.pkl
+
+These files are available upon request at martin.holler@uni-graz.at
